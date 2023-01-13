@@ -12,4 +12,4 @@ var shuffle = function(nums, n) {
    return list
 };
 
-// link do exercício: https://leetcode.com/problems/shuffle-the-array/submissions/877552843/
+// link: https://leetcode.com/problems/shuffle-the-array/submissions/877552843/

@@ -10,4 +10,4 @@ var runningSum = function(nums) {
     }
     return list;
 };
-// link do exercício: https://leetcode.com/problems/running-sum-of-1d-array/description/
+// link: https://leetcode.com/problems/running-sum-of-1d-array/description/

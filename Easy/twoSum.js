@@ -10,3 +10,4 @@ var twoSum = function(nums, target) {
         integers[target-num] = index;
     }
 };
+// Link: https://leetcode.com/problems/two-sum/
