@@ -5,3 +5,4 @@ class Solution(object):
             if stone in jewels:
                 total += 1
         return total
+# Link do exercício: https://leetcode.com/problems/jewels-and-stones/
