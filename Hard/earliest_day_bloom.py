@@ -5,8 +5,9 @@ class Solution(object):
         dia_hoje = 0
         dias_all_bloom = 0
         for tcrescimento, tplantio in tempos_crescimento_e_plantio:
-            dias_all_bloom = max(dias_all_bloom, (dia_hoje + tplantio + tcrescimento))
+            tempo_total = dia_hoje + tplantio + tcrescimento
+            dias_all_bloom = max(dias_all_bloom, tempo_total)
             dia_hoje += tplantio
         return dias_all_bloom
-    
+   
 # link do exercício: https://leetcode.com/problems/earliest-possible-day-of-full-bloom/
